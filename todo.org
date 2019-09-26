@@ -5,5 +5,6 @@
     [X] footer
     [X] home page
     [ ] contacts page
-  [ ] home page
+  [X] home page
   [ ] contacts page
+  [ ] portfolio page

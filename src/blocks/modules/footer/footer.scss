@@ -1,6 +1,7 @@
 footer.footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -22,6 +23,13 @@ footer.footer {
       align-items: center;
       text-align: center;
       justify-content: center;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    padding: 0 10px;
+    justify-content: center;
+    .socials {
+      margin-bottom: 15px
     }
   }
 }
