@@ -1,0 +1,5 @@
+[-] Initial release
+  [X] collect all assets
+  [ ] create base html
+  [ ] home page
+  [ ] contacts page
