@@ -1,0 +1,43 @@
+header.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: $gray;
+  max-height: 50px;
+  .nav-brand {
+    width: auto;
+    flex: auto;
+    padding: 2px 12px 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .phone {
+      font-size: 21px;
+      line-height: 18px;
+    }
+  }
+  nav {
+    background: $nav-gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    a {
+      min-width: 200px;
+      vertical-align: middle;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      transition: 0.2s all ease;
+      &:hover, &.active {
+        text-decoration: none;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}

@@ -1,5 +1,9 @@
 [-] Initial release
   [X] collect all assets
-  [ ] create base html
+  [-] create base html
+    [X] header
+    [X] footer
+    [X] home page
+    [ ] contacts page
   [ ] home page
   [ ] contacts page
