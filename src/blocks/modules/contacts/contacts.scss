@@ -7,7 +7,7 @@
     justify-content: space-between;
   }
   address {
-    background: $gray;
+    // background: $gray;
     flex: 0 60%;
     max-width: 50%;
     border-radius: 50px 0;
@@ -25,5 +25,9 @@
   }
   .map {
     flex: 0 39%;
+    height: 100%;
+    img {
+      height: 100%;
+    }
   }
 }

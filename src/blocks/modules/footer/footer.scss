@@ -8,6 +8,12 @@ footer.footer {
   padding: 0 35px;
   min-height: 101px;
   margin-top: auto;
+  // always on bottom
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
   .socials {
     display: flex;
     flex-direction: row;
