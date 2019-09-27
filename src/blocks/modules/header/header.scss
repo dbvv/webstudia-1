@@ -40,13 +40,6 @@ header.header {
         display: none;
       }
     }
-    &+nav.collapsed {
-      .nav-toggle {
-        &:before {
-          background-image: url('/img/svg/cancel.svg');
-        }
-      }
-    }
   }
   nav {
     background: $nav-gray;
@@ -56,8 +49,10 @@ header.header {
     align-items: center;
     align-content: center;
     overflow: hidden;
+    flex: auto;
     a {
-      min-width: 200px;
+      max-width: 200px;
+      width: 25%;
       vertical-align: middle;
       height: 100%;
       display: flex;

@@ -1,0 +1,29 @@
+.contacts {
+  margin-top: 1rem;
+  h1 {
+    text-align: center;
+  }
+  .row {
+    justify-content: space-between;
+  }
+  address {
+    background: $gray;
+    flex: 0 60%;
+    max-width: 50%;
+    border-radius: 50px 0;
+    padding: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    p, div, span {
+      font-size: 21px;
+    }
+    .phones, .email {
+      margin-bottom: 30px;
+    }
+  }
+  .map {
+    flex: 0 39%;
+  }
+}
