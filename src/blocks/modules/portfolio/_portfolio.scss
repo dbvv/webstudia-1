@@ -1,0 +1,40 @@
+.portfolio {
+  h1 {
+    text-align: center;
+    margin: 1rem;
+  }
+  &__items {
+    &__item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      margin: 1.5rem auto;
+      padding: 2rem 0;
+      position: relative;
+      img {
+        border-radius: 50px 0;
+        max-width: 400px;
+        height: auto;
+        max-height: 300px;
+        flex: 0 50%;
+      }
+      &__content {
+        flex: 0 50%;
+        text-align: center;
+      }
+      .portfolio-divider {
+        position: absolute;
+        bottom: -20px;
+        // top: 0;
+        left: 0;
+        right: 0;
+      }
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
